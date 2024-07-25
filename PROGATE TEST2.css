@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  max-width: 1440px;
+  height: 100%;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 138px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    height: 145px;
+    width: 100%;
+    background-color: #158989;
+    top: 0;
+    z-index: 10;
+    border-radius: 30px 30px 0px 0;
+}
+
+.logo {
+  width: 335px;
+  height: 67px;
+  float: left;
+  margin-top: 39px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  float: left;
+  margin-top: 54px;
+}
+
+.P,.S {
+  height: 36px;
+  margin-top: 54px;
+  margin-right: 35px
+}
+
+.C {
+  height: 36px;
+  margin-top: 54px;
+}
+
+/* MENU */
+
+.top-wrapper {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.coffee {
+  color: #158989;
+  font-size: 48px;
+  line-height: 57.6px;
+  font-weight: 700;
+}
+
+.best {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 500;
+}
+
+.Menu {
+  padding: 0 277px;
+}
+
+.menu-wrapper {
+  width: auto;
+  height: 472px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-wrapper img {
+  border-radius: 20px;
+}
+
+.menu1,
+.menu2,
+.menu3{
+  position: relative;
+  display: inline-block;
+  top: 20px;
+}
+
+.menu1 {
+  right: 90px;
+}
+
+.menu3 {
+  left: 90px;
+}
+
+.cup1 {
+  width: 216px;
+  height: 216px;
+  margin-top: 75px;
+}
+
+.cup2 {
+  width: 216px;
+  height: 216px;
+  margin-top: 40px;
+}
+
+.cofe1,
+.cofe2,
+.cofe3 {
+  position: absolute;
+  width: 186px;
+  top: 23%;
+  left: 7%;
+  margin-top: 25px;
+}
+
+.cofe4,
+.cofe5,
+.cofe6 {
+  position: absolute;
+  width: 186px;
+  top: 70%;
+  left: 7%;
+  margin-top: 25px;
+}
+
+.overlay-text1 {
+  position: absolute;
+  width: 450px;
+  top: 17%;
+  left: 27%;
+  color: white;
+  font-size: 24px;
+}
+
+.overlay-text2 {
+  position: absolute;
+  width: 450px;
+  top: 64%;
+  left: 27%;
+  color: white;
+  font-size: 24px;
+}
+
+.coffee-name1 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.coffee-name2 {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  right: 3%;
+}
+
+.coffee-price1 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* FOOTER */
+
+footer {
+  height: 460px;
+  width: 100%;
+  background-color: #143642;
+  margin-top: 100px;
+  z-index: 10;
+  border-radius: 30px 30px 0px 0;
+}
+
+.logo-footer {
+  width: 335px;
+  height: 67px;
+  float: left;
+  margin-top: 80px;
+}
+
+.left-contact {
+  margin-top: 151px;
+}
+
+.email-footer {
+  width: 40px;
+  height: 32px;
+}
+
+.telp-footer {
+  margin-left: 27px;
+  width: 32px;
+  height: 32px;
+}
+
+.right-footer {
+  float: right;
+  margin-top: -120px;
+}
+
+.right-footer a {
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: inline-block; 
+}
+
+.p,.s,.c {
+  color: #EC9A29;
+  font-weight: 700;
+}
+
+.p {
+  margin-right: 143px;
+}
+
+.s {
+  margin-right: 132px;
+}
+
+.cb,.l {
+  margin-right: 100px;
+}

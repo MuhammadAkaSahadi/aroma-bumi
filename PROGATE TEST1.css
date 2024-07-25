@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  max-width: 1440px;
+  height: 100%;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 138px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    height: 700px;
+    width: 100%;
+    background-image: url(Coffe\ Jumbotron\ 1.png);
+    background-size: cover;
+    top: 0;
+    z-index: 10;
+    border-radius: 30px 30px 0px 0;
+}
+
+.logo {
+  width: 335px;
+  height: 67px;
+  float: left;
+  margin-top: 39px;
+}
+
+.header-mid {
+    text-align: center;
+    display: inline-block;
+    margin-top: 90px;;
+}
+
+.HM,.Hm {
+    color: white;
+    font-size: 70px;
+    line-height: 57.6px;
+    font-weight: 900;
+}
+
+.Hm {
+  margin-top: -45px;
+}
+
+.hm {
+  color: white;
+  font-size: 36px;
+  margin-top: -40px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  float: left;
+  margin-top: 54px;
+}
+
+.P,.S {
+  height: 36px;
+  margin-top: 54px;
+  margin-right: 35px
+}
+
+.C {
+  height: 36px;
+  margin-top: 54px;
+}
+
+/* MENU */
+
+.Menu {
+  padding: 0 257px;
+}
+
+.txt-waw {
+  width: 452px;
+  height: 219px;
+  margin-left: 473px;
+}
+
+.img-waw {
+  width: 335px;
+  height: 460px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.title-waw {
+  color: #158989;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: -450px;
+}
+
+.line-waw {
+  width: 278px;
+  height: 5px;
+  background-color: #EC9A29;
+  margin-top: -35px;
+}
+
+.content-waw {
+  text-align: left;
+}
+
+.txt-ps {
+  width: 425px;
+  height: 276px;
+}
+
+.img-ps {
+  width: 335px;
+  height: 335px;
+  border-radius: 20px;
+  margin-top: 300px;
+  margin-left: 591px;
+}
+
+.title-ps {
+  color: #158989;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: -300px;
+}  
+
+.line-ps {
+  width: 399px;
+  height: 5px;
+  background-color: #EC9A29;
+  margin-top: -35px;
+}
+
+.content-ps {
+  text-align: left;
+  width: 425px;
+  height: 58px;
+}
+
+.btn {
+  width: 335px;
+  height: 70px;
+  background-color: #A8201A;
+  border-radius: 55px;
+  border-color: #A8201A;
+  box-shadow: #A8201A;
+  font-size: 24px;
+  color: #F9FBFE;
+  cursor: pointer;
+}
+
+.img-how {
+  width: 453px;
+  height: 453px;
+  border-radius: 20px;
+  margin-top: 159px;
+}
+
+.txt-how {
+  width: 382px;
+  height: 305px;
+  margin-left: 544px;
+}
+
+.title-how {
+  color: #158989;
+  font-size: 47px;
+  font-weight: 900;
+  margin-top: -450px;
+}  
+
+.line-how {
+  width: 381px;
+  height: 5px;
+  background-color: #EC9A29;
+  margin-top: -35px;
+}
+
+.content-how {
+  text-align: left;
+  width: 398px;
+  height: 58px;
+}
+
+.fu {
+  width: 927px;
+  height: 632px;
+}
+
+.title-fu {
+  color: #158989;
+  font-size: 47px;
+  font-weight: 900;
+  margin-top: 250px;
+  text-align: center;
+}  
+
+.title-fu a {
+  color: #EC9A29;
+}
+
+.fu img {
+  width: 237px;
+  height: 237px;
+  display: flex;
+  position: relative;
+  display: inline-block;
+}
+
+.img-fu4,.img-fu5,.img-fu6 {
+  top: 50px;
+}
+
+.img-fu2,.img-fu5 {
+  left: 108px;
+}
+
+.img-fu3,.img-fu6 {
+  left: 216px;
+}
+
+.aum {
+  width: 889px;
+  height: 197px;
+  text-align: center;
+}
+
+.title-aum {
+  color: #158989;
+  font-size: 47px;
+  font-weight: 900;
+  margin-top: 100px;
+  margin-left: 50px;
+}  
+
+.content-aum {
+  font-size: 20px;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+.AUM {
+  margin-left: 50px;
+}
+
+/* FOOTER */
+
+footer {
+  height: 460px;
+  width: 100%;
+  background-color: #143642;
+  margin-top: 100px;
+  z-index: 10;
+  border-radius: 30px 30px 0px 0;
+}
+
+.logo-footer {
+  width: 335px;
+  height: 67px;
+  float: left;
+  margin-top: 80px;
+}
+
+.left-contact {
+  margin-top: 151px;
+}
+
+.email-footer {
+  width: 40px;
+  height: 32px;
+}
+
+.telp-footer {
+  margin-left: 27px;
+  width: 32px;
+  height: 32px;
+}
+
+.right-footer {
+  float: right;
+  margin-top: -120px;
+}
+
+.right-footer a {
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: inline-block; 
+}
+
+.p,.s,.c {
+  color: #EC9A29;
+  font-weight: 700;
+}
+
+.p {
+  margin-right: 143px;
+}
+
+.s {
+  margin-right: 132px;
+}
+
+.cb,.l {
+  margin-right: 100px;
+}
