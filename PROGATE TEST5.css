@@ -73,44 +73,39 @@ header {
   padding: 0px 257px;
 }
 
-/* .Desc-container{
-  width: 1164px;
-  height: 755px;
-  padding-top: 1000px;
-} */
-
 .sub-dsc {
   color: #158989;
   font-size: 48px;
   font-weight: 900;
 }
 
-.b71,.ias,.wpr {
-    width: 474px;
-    height: 196px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 2px #000000;
+#desc-menu {
+  width: 926px;
+  height: 784px;
+  padding: 48px 0px;
+  border-radius: 20px;
+  border: 3px solid #D2D2D2;
+  text-align: center;
 }
 
-.b71 p,.ias p,.wpr p {
-    margin-left: 44px;
-    width: 386px;
+#desc-menu label {
+  margin-right: 157px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #143642;
 }
 
-.sub-ttl {
-    color: #143642;
-    font-size: 30px;
-    font-weight: 700;
-    padding-top: 19px;
+#desc-menu input[type="name"] {
+  width: 493px;
+  height: 71px;
+  padding: 44px;
+  border-radius: 20px;
+  border: 3px solid #D2D2D2;
+  font-size: 24px;
 }
 
-.gmap {
-    width: 572px;
-    height: 572px;
-    border-radius: 20px;
-    margin-top: -700px;
-    margin-left: 600px;
-    position: absolute;
+#desc-menu ::placeholder {
+  color: #D2D2D2;
 }
 
 /* FOOTER */
