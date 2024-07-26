@@ -70,7 +70,7 @@ header {
 /* MENU */
 
 .desc-wrapper {
-  padding: 0px 257px;
+  padding: 100px 257px;
 }
 
 .sub-dsc {
@@ -81,7 +81,7 @@ header {
 
 #desc-menu {
   width: 926px;
-  height: 784px;
+  height: 834px;
   padding: 48px 0px;
   border-radius: 20px;
   border: 3px solid #D2D2D2;
@@ -89,23 +89,48 @@ header {
 }
 
 #desc-menu label {
-  margin-right: 157px;
+  float: left;
+  position: absolute;
+  margin-left: -246px;
+  margin-top: 22px;
   font-size: 30px;
   font-weight: 700;
   color: #143642;
 }
 
-#desc-menu input[type="name"] {
-  width: 493px;
-  height: 71px;
+#desc-menu input[type="name"], input[type="email"], input[type="phoneNumber"], input[type="subject"], input[type="message"] {
+  width: 537px;
   padding: 44px;
+  margin-right: -240px;
+  margin-bottom: 20px;
   border-radius: 20px;
   border: 3px solid #D2D2D2;
   font-size: 24px;
 }
 
+#desc-menu input[type="name"], input[type="email"], input[type="phoneNumber"], input[type="subject"] {
+  height: 71px;
+}
+
+#desc-menu input[type="message"] {
+  height: 200px;
+}
+
 #desc-menu ::placeholder {
   color: #D2D2D2;
+}
+
+#btn {
+  width: 216px;
+  height: 70px;
+  margin-left: -50px;
+  background-color: #A8201A;
+  border-radius: 55px;
+  border-color: #A8201A;
+  box-shadow: #A8201A;
+  font-size: 24px;
+  color: #F9FBFE;
+  cursor: pointer;
 }
 
 /* FOOTER */
